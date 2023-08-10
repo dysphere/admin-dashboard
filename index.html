@@ -11,15 +11,13 @@
         <div class="header">
             <div class="top-head">
             <div class="search-bar">
-                <form>
                     <input type="submit" class="search-click" value="">
                     <input type="search" class="search-text">
-                </form>
             </div>
             <div class="user-log">
-                <form>
+                <div>
                     <input type="submit" class="notify" value="">
-                </form>
+                </div>
                 <img src="icons/business.png">
                 <h3>Morgan Oakley</h3>
             </div>
@@ -32,12 +30,10 @@
                         <h2>Morgan Oakley (@morgan)</h2>
                     </div>
                 </div>
-                <div>
-                    <form>
-                        <button>New</button>
-                        <button>Upload</button>
-                        <button>Share</button>
-                    </form>
+                <div class="buttons-main">
+                        <button class="new-but">New</button>
+                        <button class="up-but">Upload</button>
+                        <button class="share-but">Share</button>
                 </div>
             </div>
         </div>
@@ -59,76 +55,65 @@
         </div>
         <div class="main-content">
             <div class="projects">
-                <h2>Your Projects</h2>
-                <div class="cards">
+                <h2 class="own-proj">Your Projects</h2>
+                <div class="cardall">
                 <div class="card">
                     <h2>Super Cool Project</h2>
                     <p>Maecenas nec mi suscipit libero posuere elementum sed nec nunc. Maecenas placerat, orci feugiat vulputate.</p>
                     <div class="card-icons">
-                        <form>
                             <input type="submit" class="fav" value="">
                             <input type="submit" class="watch" value="">
                             <input type="submit" class="share" value="">
-                        </form>
                     </div>
                 </div>
                 <div class="card">
-                    <h2>Super Cool Project</h2>
-                    <p>Maecenas nec mi suscipit libero posuere elementum sed nec nunc. Maecenas placerat, orci feugiat vulputate.</p>
+                    <h2>Less Cool Project</h2>
+                    <p>Praesent semper ut libero at finibus. Nam mi leo, pulvinar nec eros a, viverra mattis dui. Quisque id massa augue. Pellentesque ornare arcu ac rhoncus dignissim. Nam vulputate augue ac libero hendrerit venenatis.</p>
                     <div class="card-icons">
-                        <form>
                             <input type="submit" class="fav" value="">
                             <input type="submit" class="watch" value="">
                             <input type="submit" class="share" value="">
-                        </form>
                     </div>
                 </div>
                 <div class="card">
-                    <h2>Super Cool Project</h2>
-                    <p>Maecenas nec mi suscipit libero posuere elementum sed nec nunc. Maecenas placerat, orci feugiat vulputate.</p>
+                    <h2>Impossible App</h2>
+                    <p>Ut sit amet vulputate turpis, quis vulputate velit. Aliquam semper leo ligula, non lacinia ante ornare et. Quisque euismod elit lacinia libero consequat, ut molestie dolor lacinia.</p>
                     <div class="card-icons">
-                        <form>
                             <input type="submit" class="fav" value="">
                             <input type="submit" class="watch" value="">
                             <input type="submit" class="share" value="">
-                        </form>
                     </div>
                 </div>
                 <div class="card">
-                    <h2>Super Cool Project</h2>
-                    <p>Maecenas nec mi suscipit libero posuere elementum sed nec nunc. Maecenas placerat, orci feugiat vulputate.</p>
+                    <h2>Easy Peasy App</h2>
+                    <p>Suspendisse mattis laoreet quam eget tempus. Vivamus a lacus ante. Etiam varius nisi a metus mollis iaculis. Maecenas eget mattis nisl. Fusce semper velit ac nisl imperdiet, condimentum accumsan dui malesuada. Nullam id tortor vestibulum, dignissim enim malesuada, tristique nisl.</p>
                     <div class="card-icons">
-                        <form>
                             <input type="submit" class="fav" value="">
                             <input type="submit" class="watch" value="">
                             <input type="submit" class="share" value="">
-                        </form>
                     </div>
                 </div>
                 <div class="card">
-                    <h2>Super Cool Project</h2>
-                    <p>Maecenas nec mi suscipit libero posuere elementum sed nec nunc. Maecenas placerat, orci feugiat vulputate.</p>
+                    <h2>Ad Blocker</h2>
+                    <p>Donec lacinia ultricies velit ut scelerisque. Vivamus consectetur neque vitae interdum molestie. Nunc commodo dolor non mi ultricies ultricies. Sed eget efficitur libero. Ut sit amet vulputate turpis, quis vulputate velit.</p>
                     <div class="card-icons">
-                        <form>
                             <input type="submit" class="fav" value="">
                             <input type="submit" class="watch" value="">
                             <input type="submit" class="share" value="">
-                        </form>
                     </div>
                 </div>
                 <div class="card">
-                    <h2>Super Cool Project</h2>
-                    <p>Maecenas nec mi suscipit libero posuere elementum sed nec nunc. Maecenas placerat, orci feugiat vulputate.</p>
+                    <h2>Money Maker</h2>
+                    <p>Duis vitae ultricies magna, ac suscipit neque. Suspendisse mattis laoreet quam eget tempus. Vivamus a lacus ante.</p>
                     <div class="card-icons">
-                        <form>
                             <input type="submit" class="fav" value="">
                             <input type="submit" class="watch" value="">
                             <input type="submit" class="share" value="">
-                        </form>
                     </div>
                 </div>
                 </div>
             </div>
+            <div class="content-right">
             <div class="announce">
                 <h2>Announcements</h2>
                 <div class="articles">
@@ -148,36 +133,37 @@
             </div>
             <div class="trends">
                 <h2>Trending</h2>
-                <div class="trend-all">
+                <div class="trendall">
                 <div class="trend">
-                    <div><img src="icons/blue-user.png"></div>
+                    <div class="user-icon"><img src="icons/blue-user.png"></div>
                     <div>
                         <p>@tegan</p>
                         <p>World Peace Builder</p>
                     </div>
                 </div>
                 <div class="trend">
-                    <div><img src="icons/business.png"></div>
+                    <div class="user-icon"><img src="icons/business.png"></div>
                     <div>
                         <p>@morgan</p>
                         <p>Super Cool Project</p>
                     </div>
                 </div>
                 <div class="trend">
-                    <div><img src="icons/red-user.png"></div>
+                    <div class="user-icon"><img src="icons/red-user.png"></div>
                     <div>
                         <p>@kendall</p>
                         <p>Life Changing App</p>
                     </div>
                 </div>
                 <div class="trend">
-                    <div><img src="icons/yellow.png"></div>
+                    <div class="user-icon"><img src="icons/yellow.png"></div>
                     <div>
                         <p>@alex</p>
                         <p>No Traffic Maker</p>
                     </div>
                 </div>
                 </div>
+            </div>
             </div>
         </div>
         <div class="footer">
