@@ -149,10 +149,11 @@ margin-left: 35px;
     grid-column: 1 / 3;
     gap: 30px;
     grid-template-columns: repeat(2, minmax(600px, 20%));
+    grid-template-rows: repeat(auto-fit, minmax(250px, 20%));
 }
 
 .card {
-height: 230px;
+height: 250px;
 background-color: white;
 padding-left: 20px;
 border-radius: 5px;
@@ -171,7 +172,7 @@ grid-template-rows: repeat(auto-fit, 1fr);
 .card p {
     text-align: left;
     margin-top: 0px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .card-icons {
@@ -179,18 +180,39 @@ grid-template-rows: repeat(auto-fit, 1fr);
     grid-template-columns: repeat(10, 1fr);
 }
 
-.trendall {
-
+.content-right {
+    margin-right: 30px;
 }
+
+.trend-head {
+}
+
+.trends {
+border-radius: 5px;
+padding-top: 5px;
+padding-left: 5px;
+}
+
 
 .trend {
     display: grid;
     grid-template-columns: 1fr 3fr;
-    grid-template-rows: 1fr 1fr;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+.trend p {
+margin-top: 0px;
+margin-bottom: 3px;
+margin-left: 10px;
 }
 
 .trends h2 {
     background-color: gray;
+    margin-bottom: 0px;
+    padding-bottom: 15px;
 }
 
 .user-icon {
@@ -209,28 +231,27 @@ grid-template-rows: repeat(auto-fit, 1fr);
     row-gap: 50px;
 }
 
+.ahead {
+
+}
+
 .announce {
     background-color: white;
-}
-
-.announce h2 {
-    background-color: gray;
-}
-
-.announce div {
-}
-
-.articles {
     border-radius: 5px;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
 }
 
+.announce h3 {
+}
+
 .article {
-    padding-left: 25px;
+    padding-left: 30px;
     padding-right: 10px;
     margin-right: 20px;
+    margin-left: 20px;
     width: 200px;
+    border-bottom: 1px solid gray;
 }
 
 .trends {
