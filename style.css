@@ -1,8 +1,12 @@
-/*replace fonts and colors later */
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+* {
+    font-family: 'Oxygen', sans-serif; 
+}
 
 .container {
     display: grid;
-    grid-template-columns: 300px 1575px;
+    grid-template-columns: 350px 1575px;
     grid-template-rows: 250px 1000px 50px;
 }
 
@@ -57,6 +61,7 @@ border-radius: 20px;
 .user-log h3 {
     grid-column: 3 / 4;
     margin-top: 15px;
+    color: #064e3b;
 }
 
 .bottom-head {
@@ -77,11 +82,13 @@ border-radius: 20px;
 
 .hi-head {
     margin-left: 10px;
+    color: #064e3b;
 }
 
 .hi-head p {
     margin-top: 5px;
     margin-bottom: 0px;
+    font-weight: bold;
 }
 
 .hi-head h2 {
@@ -132,8 +139,8 @@ border-radius: 20px;
     grid-column: 1 / 2;
     grid-row: 1 / 3;
     display: grid;
-    grid-template-rows: 30px 200px 200px;
-    row-gap: 75px;
+    grid-template-rows: 30px 300px 300px;
+    row-gap: 80px;
 }
 
 .sidebar-row {
@@ -151,7 +158,7 @@ border-radius: 20px;
 }
 
 .sidebar-head .text li {
-    margin-top: 6px;
+    margin-top: 0px;
     font-size: 40px;
 }
 
@@ -162,7 +169,7 @@ border-radius: 20px;
 
 .sidebar-row .images li {
     margin-bottom: 4px;
-    margin-top: 4px;
+    margin-top: 7px;
 }
 
 .images {
@@ -185,16 +192,12 @@ border-radius: 20px;
     background-color: #ccfbf1;
 }
 
-.projects {
-}
-
 .projects .own-proj {
 margin-left: 35px;
 color: #064e3b;
 }
 
 .projects h2 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     align-self: center;
 }
 
