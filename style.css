@@ -41,11 +41,13 @@ border-radius: 20px;
 .user-log {
     display: grid;
     grid-template-columns: 1fr 1fr 2fr;
-    margin: auto;
+    margin-left: 200px;
+    margin-top: 20px;
 }
 
 .notify {
     grid-column: 1 / 2;
+    margin-left: 15px;
 }
 
 .user-log img {
@@ -54,6 +56,7 @@ border-radius: 20px;
 
 .user-log h3 {
     grid-column: 3 / 4;
+    margin-top: 15px;
 }
 
 .bottom-head {
@@ -72,6 +75,19 @@ border-radius: 20px;
     margin-left: 60px;
 }
 
+.hi-head {
+    margin-left: 10px;
+}
+
+.hi-head p {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.hi-head h2 {
+    margin-top: 10px;
+}
+
 .welcome p, .welcome h2 {
     grid-column: 2 / 3;
 }
@@ -79,9 +95,11 @@ border-radius: 20px;
 .buttons-main {
     grid-column: 3 / 4;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     column-gap: 30px;
+    margin-left: 500px;
+    margin-right: 30px;
 }
 
 .buttons-main button {
@@ -90,6 +108,10 @@ border-radius: 20px;
     font-size: 20px;
     grid-row: 2 / 3;
     border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .new-but {
@@ -306,6 +328,7 @@ margin-left: 10px;
 
 .notify {
     background: url(icons/bell-ring.svg);
+    margin-top: 15px;
 }
 
 .card-icons input, .search-click, .notify {
